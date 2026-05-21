@@ -42,7 +42,6 @@ Sitio web responsive desarrollado con HTML y CSS puro.
 /assets
   ├── /img
   └── /screenshots
-
 /pages
   ├── linea200.html
   ├── linea404.html
@@ -51,10 +50,10 @@ Sitio web responsive desarrollado con HTML y CSS puro.
   ├── linea506.html
   ├── linea521.html
   └── recorridos.html
-
 index.html
 README.md
 style.css
+```
 
 ## 🌐 Demo
 
