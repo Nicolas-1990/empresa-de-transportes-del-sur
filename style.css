@@ -19,7 +19,7 @@ main {
 header,
 .sub-header {
     width:100%;
-    padding:15px 5%;
+    padding:8px 5%;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -30,6 +30,13 @@ header,
     font-size:2rem;
     font-weight:700;
     color:white;
+}
+
+.logo img {
+    height:60px;
+    width:auto;
+    display:block;
+    object-fit:contain;
 }
 
 .navlist {
@@ -113,11 +120,40 @@ section {
 }
 
 footer {
-    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+
     padding:20px;
-    background:#f1f8f1;
-    color:#2f5233;
-    border-top:1px solid #cfe3cf;
+    background:#f1f1f1;
+    color:#333;
+
+    text-align:center;
+    flex-wrap:wrap;
+}
+
+.footer-text {
+    margin:0;
+}
+
+.footer-icons {
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.footer-icons a {
+    color:#272727;
+    transition:.3s ease;
+}
+
+.footer-icons a i {
+    font-size:28px;
+}
+
+.footer-icons a:hover {
+    color:#008000;
 }
 
 .btn {
@@ -134,15 +170,28 @@ footer {
     background:#008000;
 }
 
-.icons {
+.subtitle-row {
     display:flex;
+    align-items:center;
     gap:15px;
     margin:25px 0;
 }
 
+.subtitle-row p {
+    margin:0;
+    line-height:1.5;
+}
+
+.icons {
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    margin:0;
+}
+
 .icons i {
-    font-size:28px;
-    color: #000000;
+    font-size:25px;
+    color: #000;
     transition:.3s ease;
 }
 
@@ -328,7 +377,13 @@ footer {
         margin-left:0;
     }
 
+    .subtitle-row {
+        flex-direction:column;
+        text-align:center;
+    }
+
     .icons {
+        flex-direction:row;
         position:static;
         display:flex;
         justify-content:center;

@@ -24,17 +24,19 @@ Sitio web responsive desarrollado con HTML y CSS puro.
 
 ### Recorridos
 ![Recorridos](assets/screenshots/screenshots2.png)
+![Recorridos](assets/screenshots/screenshots3.png)
 
 ### Línea 404
-![Línea 404](assets/screenshots/screenshots3.png)
+![Línea 404](assets/screenshots/screenshots4.png)
 
 ### Línea 506
-![Línea 506](assets/screenshots/screenshots4.png)
+![Línea 506](assets/screenshots/screenshots5.png)
+![Línea 506](assets/screenshots/screenshots6.png)
 
 ### Responsive
-![992px](assets/screenshots/screenshots5.png)
+![992px](assets/screenshots/screenshots7.png)
 
-![768px](assets/screenshots/screenshots6.png)
+![768px](assets/screenshots/screenshots8.png)
 
 ## 📁 Estructura del proyecto
 
